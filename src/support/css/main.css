@@ -1,0 +1,30 @@
+.main{
+    background-image: url('./../img/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 50vmax;
+    font-family: 'Staatliches', cursive;
+}
+
+.main-nav{
+    font-family: 'Abel', sans-serif;
+    font-size: 20px;
+}
+
+.contentMain{
+    margin: 0 auto;
+    width: 720px;
+    justify-items: center;
+    color: white;
+}
+
+.main .contentMain h1,p{
+    text-align:center;
+}
+
+.whoweare h1,h3{
+    text-align: center;
+    margin-top: 20px;
+} 

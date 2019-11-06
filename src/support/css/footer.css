@@ -1,0 +1,12 @@
+#footer {
+    clear: both;
+    position: relative;
+    height: 100%;
+}
+ul li a {
+    text-decoration: none;
+    color:orange;
+}
+ul li a:hover{
+    color:inherit;
+}

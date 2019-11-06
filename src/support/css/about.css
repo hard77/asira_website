@@ -1,0 +1,29 @@
+.aboutAyannah{
+    height: 100%;
+
+}
+
+.aboutAyannah  h1{
+    font-size: 50px;
+    color: #ED433C;
+    border-left: 2px solid #ED433C;
+    padding-left: 25px;
+}
+
+.aboutAyannah h3{
+    color: #ED433C;
+    border-left: 2px solid #ED433C;
+    padding-left: 25px;
+    
+}
+.aboutAyannah .ourBoss h3{
+    color: #ED433C;
+    border-left: 2px solid #ED433C;
+    padding-left: 25px;
+}
+
+.whoweare h1{
+    font-size: 50px;
+    color: #ED433C;
+}
+

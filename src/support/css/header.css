@@ -1,0 +1,26 @@
+
+
+.header .main-nav:hover{
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+}
+
+.header{
+    background-color: #f7f7f7;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 1;
+}
+.header .main-nav {
+    text-decoration: none;
+    color: grey;
+    margin-right: 20px;
+
+}
+
+
+.header .main-nav-active{
+    border-bottom: 3px solid blue;
+
+}
