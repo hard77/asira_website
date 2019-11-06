@@ -24,39 +24,6 @@ class About extends React.Component{
                         </div>
                     </div>
                 </div>
-
-                <div className="ourBoss">
-                    <div className="row mt-3 mb-5">
-                        <div className="col-12 col-md-6 ">
-                            <h3 className="text-left">Chief Executive Officer (CEO)</h3>
-                            <div className="row">
-                                <div className="col-6 col-md-6 col-xs-6">
-                                <center>
-                                <img src={Income} width="50%" alt="CEO"></img>
-                                </center>  
-                                </div>
-                                <div className="col-6 col-md-6 col-xs-6">
-                                <ul>
-                                    <li>20+ tahun pengalaman dalam membangun dan menumbuhkan usaha start up yang sukses</li>
-                                    <li>Memulai karir sebagai pengatur komunitas di pedesaan Filipina </li>
-                                    <li>TOP 100 Pimpinan Fintech di Asia Pasific </li>
-                                    <li>Mikko memulai Ayannah untuk menggabungkan pengalamannya dalam keuangan dan teknologi untuk membangun bisnis yang menguntungkan dan scalable yang dapat berdampak pada kehidupan jutaan orang.</li>
-                                </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-12 col-md-6">
-                            <h3 className="text-left">Country Managing Director</h3>
-                            <img src={Income} width="30%" alt="CEO"></img>
-                            
-                                <ul>
-                                    <li>Penilaian Ekuitas (Saham dan Investasi)</li>
-                                    <li>Merger dan Akuisisi (Investasi Perbankan) </li>
-                                    <li>Anggota masyarakat aktuaris (Asuransi)</li>
-                                </ul>
-                        </div>
-                    </div>
-                </div>
                 <div>
                     <div className="row">
                         <div className="col-5 col-md-5 mb-5">

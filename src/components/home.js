@@ -3,7 +3,7 @@ import './../support/css/main.css'
 import WOW from 'wow.js'
 import Category from './category'
 import About from './about'
-import History from './history'
+import Boss from './ourBoss'
 class Home extends React.Component{
     componentDidMount() {
         new WOW().init();
@@ -41,7 +41,7 @@ class Home extends React.Component{
                          <About/>
                     </div>
                     <div id="sejarahAncor">
-                        <History/>
+                        <Boss/>
                     </div>
                 </div>
             </div>
