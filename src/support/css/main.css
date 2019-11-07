@@ -16,14 +16,24 @@
 .contentMain{
     margin: 0 auto;
     justify-items: center;
-    color: white;
+    color: whitesmoke;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 .main .contentMain h1,p{
     text-align:center;
 }
+.contentMain h1,h3{
+    color: #ED433C;
+    border-left: 2px solid #ED433C;
+    padding-left: 25px;
+  }
+  
 
 .whoweare h1,h3{
     text-align: center;
     margin-top: 20px;
 } 
+.whoweare p{
+    color: black;
+}

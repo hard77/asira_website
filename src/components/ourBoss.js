@@ -1,5 +1,6 @@
 import React from 'react'
 import CEO from './../support/img/founder.jpg'
+import CMD from './../support/img/ian2.jpg'
 import './../support/css/ourboss.css'
 class Boss extends React.Component{
     render(){
@@ -7,12 +8,13 @@ class Boss extends React.Component{
             <div className="container-fluid ourBoss">
                     <div className="row mt-3 mb-5">
                         <div className="col-12 col-md-6 ">
-                            <h3 className="text-left">Chief Executive Officer (CEO)</h3>
+                            <h3 className="text-left">Chief Executive Officer (CEO)
+                            <p className="text-left" style={{color:"black"}}>Mikko Perez</p>
+                            </h3>
                             <div className="row mt-5">
                                 <div className="col-6 col-md-6 col-xs-6">
                                 <center>
                                 <img src={CEO} width="100%" alt="CEO"></img>
-                                <p>Mikko Perez</p>
                                 </center>  
                                 </div>
                                 <div className="col-6 col-md-6 col-xs-6">
@@ -26,12 +28,13 @@ class Boss extends React.Component{
                             </div>
                         </div>
                         <div className="col-12 col-md-6">
-                            <h3 className="text-left">Country Managing Director</h3>
+                            <h3 className="text-left">Country Managing Director - INDONESIA
+                                <p className="text-left" style={{color:"black"}}>Adrian Lorenzo</p>
+                            </h3>
                             <div className="row mt-5">
                                 <div className="col-6 col-md-6 col-xs-6">
                                 <center>
-                                <img src={CEO} width="100%" alt="CEO"></img>
-                                <p>Adrian Lorenzo</p>
+                                <img src={CMD} width="100%" alt="CEO"></img>
                                 </center>  
                                 </div>
                                 <div className="col-6 col-md-6 col-xs-6">

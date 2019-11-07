@@ -1,6 +1,9 @@
-.ourBoss h3{
-    font-size: 25px;
+.backgroundstory h1{
     color: #ED433C;
     border-left: 2px solid #ED433C;
     padding-left: 25px;
+    font-size: 50px;
+}
+.backgroundstory{
+    height: 100%;
 }

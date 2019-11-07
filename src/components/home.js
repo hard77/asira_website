@@ -1,9 +1,11 @@
 import React from 'react'
 import './../support/css/main.css'
 import WOW from 'wow.js'
-import Category from './category'
 import About from './about'
 import Boss from './ourBoss'
+import Asira from './asira'
+import Problem from './problem'
+import BackgroundStory from './background'
 class Home extends React.Component{
     componentDidMount() {
         new WOW().init();
@@ -11,12 +13,12 @@ class Home extends React.Component{
     render(){
         return(
             <div>
-                <div className="main" style={{paddingTop: "39%"}}>
+                <div className="main" style={{paddingTop: "25%"}}>
                     <div className="contentMain wow fadeInDown slow data-wow-offset=50">
                     <div className="row">
                         <div className="col-xs col-12 col-md-12">
-                            <h1>
-                                Layanan Keuangan Digital untuk Kelas Menengah yang Sedang Berkembang
+                            <h1 style={{color:"whitesmoke",border:"none"}}>
+                                Layanan Keuangan Digital untuk Semua Bidang Usaha
                             </h1>
                             <p>
                             Kami memperkaya kehidupan pelanggan kami dengan mengaktifkan layanan keuangan digital yang terjangkau dan dapat diakses di web sosial dan seluler.
@@ -27,22 +29,11 @@ class Home extends React.Component{
                 </div>
                 <div id="tentang" style={{position:"static",top:"-4%"}}></div>
                 <div> 
-                    <div className="row whoweare">
-                        <div className="col-12 col-md-12 mt-5 mb-5" >
-                            <h1>Siapa kita?</h1>
-                        <p>
-                        Kami mengoperasikan tumpukan layanan keuangan digital yang telah terbukti di pasar - mulai dari pembayaran, perdagangan, dan analitik - melayani pelanggan kami secara global
-                        </p>
-                        </div>
-                    </div>
-                
-                        <Category/>
-                    
+                        <BackgroundStory/>
                         <About/>
-                  
-                   
-                        <Boss/>
-                   
+                        <Problem/>
+                        <Asira/>
+                        <Boss/>                   
                 </div>
             </div>
            

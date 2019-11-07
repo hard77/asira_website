@@ -28,9 +28,8 @@ class Header extends React.Component{
                     <NavbarToggler onClick={this.toggle} />
                     <Collapse isOpen={this.state.isOpen} navbar>
                     <Nav className="ml-auto" >
-                            <a  href='#tentang' className="main-nav" activeclassname="main-nav-active">ABOUT</a> 
-                            <a  href='#solusi' className="main-nav" activeclassname="main-nav-active">SOLUTION</a> 
-                            <a  href='#sejarah' className="main-nav" activeclassname="main-nav-active">HISTORY</a> 
+                            <a  href='#tentang' className="main-nav" activeclassname="main-nav-active">TENTANG</a> 
+                            <a  href='#keunggulan' className="main-nav" activeclassname="main-nav-active">KEUNGGULAN</a> 
                     </Nav>
                     </Collapse>
                       
