@@ -27,12 +27,14 @@ class Home extends React.Component{
                     </div> 
                     </div>
                 </div>
-                <div id="tentang" style={{position:"static",top:"-4%"}}></div>
+                <div id="tentang" style={{position:"absolute",bottom:"2%"}}>asdasdasds</div>
                 <div> 
                         <BackgroundStory/>
                         <About/>
+                <div id="keunggulan" style={{height:"70px"}}></div>
                         <Problem/>
                         <Asira/>
+                <div id="founder" style={{height:"70px"}}></div>
                         <Boss/>                   
                 </div>
             </div>

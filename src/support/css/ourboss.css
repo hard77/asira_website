@@ -4,3 +4,9 @@
     border-left: 2px solid #ED433C;
     padding-left: 25px;
 }
+
+.ourBoss ul li{
+    list-style-image: url('./../img/icons/logoAyannah.png') ;
+    padding-left: 12px;
+    padding-top: 10px;
+}
