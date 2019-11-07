@@ -1,16 +1,18 @@
 import React from 'react'
-import Income from './../support/img/icons/bank.png'
+import CEO from './../support/img/founder.jpg'
+import './../support/css/ourboss.css'
 class Boss extends React.Component{
     render(){
         return(
-<div className="ourBoss">
+            <div className="container-fluid ourBoss">
                     <div className="row mt-3 mb-5">
                         <div className="col-12 col-md-6 ">
                             <h3 className="text-left">Chief Executive Officer (CEO)</h3>
-                            <div className="row">
+                            <div className="row mt-5">
                                 <div className="col-6 col-md-6 col-xs-6">
                                 <center>
-                                <img src={Income} width="50%" alt="CEO"></img>
+                                <img src={CEO} width="100%" alt="CEO"></img>
+                                <p>Mikko Perez</p>
                                 </center>  
                                 </div>
                                 <div className="col-6 col-md-6 col-xs-6">
@@ -25,19 +27,19 @@ class Boss extends React.Component{
                         </div>
                         <div className="col-12 col-md-6">
                             <h3 className="text-left">Country Managing Director</h3>
-                            <div className="row">
+                            <div className="row mt-5">
                                 <div className="col-6 col-md-6 col-xs-6">
                                 <center>
-                                <img src={Income} width="50%" alt="CEO"></img>
+                                <img src={CEO} width="100%" alt="CEO"></img>
+                                <p>Adrian Lorenzo</p>
                                 </center>  
                                 </div>
                                 <div className="col-6 col-md-6 col-xs-6">
-                              
-                                <ul>
-                                    <li>Penilaian Ekuitas (Saham dan Investasi)</li>
-                                    <li>Merger dan Akuisisi (Investasi Perbankan) </li>
-                                    <li>Anggota masyarakat aktuaris (Asuransi)</li>
-                                </ul>
+                                    <ul>
+                                        <li>Penilaian Ekuitas (Saham dan Investasi)</li>
+                                        <li>Merger dan Akuisisi (Investasi Perbankan) </li>
+                                        <li>Anggota masyarakat aktuaris (Asuransi)</li>
+                                    </ul>
                                 </div>
                             </div>
                             

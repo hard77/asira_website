@@ -11,38 +11,38 @@ class Home extends React.Component{
     render(){
         return(
             <div>
-                <div className="main" style={{paddingTop: "29%"}}>
+                <div className="main" style={{paddingTop: "39%"}}>
                     <div className="contentMain wow fadeInDown slow data-wow-offset=50">
                     <div className="row">
-                        <div className="col-12 col-md-12">
+                        <div className="col-xs col-12 col-md-12">
                             <h1>
-                            Digital Financial Services for the Emerging Middle Class
+                                Layanan Keuangan Digital untuk Kelas Menengah yang Sedang Berkembang
                             </h1>
                             <p>
-                            We enrich the lives of our customers by enabling affordable and accessible digital financial services on the social and mobile web.
+                            Kami memperkaya kehidupan pelanggan kami dengan mengaktifkan layanan keuangan digital yang terjangkau dan dapat diakses di web sosial dan seluler.
                             </p>
                         </div>
                     </div> 
-                       <div id="aboutAncor" style={{position:"absolute", bottom:"0px",width:"20px"}}>.</div>
                     </div>
                 </div>
-            
-                <div>
+                <div id="tentang" style={{position:"static",top:"-4%"}}></div>
+                <div> 
                     <div className="row whoweare">
-                        <div className="col-12 col-md-12 mt-4 mb-4" >
-                            <h1>Who Are We?</h1>
-                            <p>We operate a market-proven stack of digital financial services - from payments, commerce and analytics - serving our customers globally.</p>
+                        <div className="col-12 col-md-12 mt-5 mb-5" >
+                            <h1>Siapa kita?</h1>
+                        <p>
+                        Kami mengoperasikan tumpukan layanan keuangan digital yang telah terbukti di pasar - mulai dari pembayaran, perdagangan, dan analitik - melayani pelanggan kami secara global
+                        </p>
                         </div>
                     </div>
-                    <div className="row">
+                
                         <Category/>
-                    </div>
-                    <div>
-                         <About/>
-                    </div>
-                    <div id="sejarahAncor">
+                    
+                        <About/>
+                  
+                   
                         <Boss/>
-                    </div>
+                   
                 </div>
             </div>
            

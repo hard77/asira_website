@@ -13,8 +13,9 @@ const Example = (props) => {
           <CardImg top width="50%" src={Award} alt="Card image cap" />
        </Link>
         <CardBody>
-          <CardTitle><h3>Award-winning Platform</h3></CardTitle>
-          <CardText>Ayannah operates several services that allow convenient online and mobile giving, selling and buying on an award-winning technology platform.  </CardText>
+          <CardTitle><h3>Platform pemenang penghargaan</h3></CardTitle>
+          <CardText> 
+Ayannah mengoperasikan beberapa layanan yang memungkinkan pemberian, penjualan, dan pembelian online dan seluler yang nyaman dan mudah. </CardText>
         </CardBody>
       </Card>
       <Card>
@@ -22,8 +23,9 @@ const Example = (props) => {
          <CardImg top width="50%" src={EnrichLive} alt="Card image cap" />
        </Link>
         <CardBody>
-        <CardTitle><h3>Enriching Lives</h3></CardTitle>
-          <CardText>We enrich the lives of our customers by allowing them to send and share values over the social and mobile web. </CardText>
+        <CardTitle><h3>Memperkaya Hidup</h3></CardTitle>
+          <CardText> 
+Kami memperkaya kehidupan pelanggan kami dengan memungkinkan mereka mengirim dan berbagi nilai melalui web sosial dan seluler.</CardText>
         </CardBody>
 
       </Card>
@@ -33,8 +35,9 @@ const Example = (props) => {
           <CardImg top width="50%" src={Market} alt="Card image cap" />
         </Link> 
         <CardBody>
-        <CardTitle><h3>Emerging Markets</h3></CardTitle>
-          <CardText>Ayannah is a leading provider of affordable and accessible digital financial services to the world's emerging middle class, many of whom are migrants and/or unbanked.</CardText>
+        <CardTitle><h3>Pasar negara berkembang</h3></CardTitle>
+          <CardText>
+Ayannah adalah penyedia terkemuka layanan keuangan digital yang terjangkau dan dapat diakses oleh kelas menengah yang muncul di dunia, banyak dari mereka adalah migran dan / atau tidak memiliki rekening bank.</CardText>
         </CardBody>
       </Card>
       
