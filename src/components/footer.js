@@ -17,7 +17,7 @@ class Footer extends React.Component {
         <div className="container-fluid">
           <div className="row">
              
-              <div className="col-md-6 col-xs col-6 mt-3">
+              <div className="col-md-6 col-xs col-12 mt-3">
                       
                         
                   <a href="http://www.facebook.com" rel="noopener noreferrer" target="_blank">
@@ -30,7 +30,7 @@ class Footer extends React.Component {
                     <img src={linkedin} width="5%" alt="twitter"></img>
                 </a>
               </div>
-              <div className="col-md-6 col-xs col-6 text-right">
+              <div className="col-md-6 col-xs col-12 text-right">
                       
               <p className=" text-right"> Noble House, Lantai 29<br/>
                +6221 50645098<br/>

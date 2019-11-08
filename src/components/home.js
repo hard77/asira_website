@@ -6,6 +6,7 @@ import Boss from './ourBoss'
 import Asira from './asira'
 import Problem from './problem'
 import BackgroundStory from './background'
+import Awards from './awards'
 class Home extends React.Component{
     componentDidMount() {
         new WOW().init();
@@ -14,6 +15,7 @@ class Home extends React.Component{
         return(
             <div>
                 <div className="main" style={{paddingTop: "25%"}}>
+                <div id="home" style={{top:"0",position:"absolute"}}></div>
                     <div className="contentMain wow fadeInDown slow data-wow-offset=50">
                     <div className="row">
                         <div className="col-xs col-12 col-md-12">
@@ -35,7 +37,10 @@ class Home extends React.Component{
                         <Problem/>
                         <Asira/>
                 <div id="founder" style={{height:"70px"}}></div>
-                        <Boss/>                   
+                        <Boss/>      
+                <div id="penghargaan" style={{height:"70px"}}></div>
+
+                        <Awards/>
                 </div>
             </div>
            

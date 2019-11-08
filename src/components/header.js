@@ -31,6 +31,7 @@ class Header extends React.Component{
                             <a  href='#tentang' className="main-nav" activeclassname="main-nav-active">TENTANG</a> 
                             <a  href='#keunggulan' className="main-nav" activeclassname="main-nav-active">KEUNGGULAN</a> 
                             <a  href='#founder' className="main-nav" activeclassname="main-nav-active">TEAM</a> 
+                            <a  href='#penghargaan' className="main-nav" activeclassname="main-nav-active">PENGHARGAAN</a> 
                     </Nav>
                     </Collapse>
                       

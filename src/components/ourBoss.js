@@ -10,7 +10,7 @@ class Boss extends React.Component{
     }
     render(){
         return(
-            <div className="container-fluid ourBoss fadeInUp wow">
+            <div className="container-fluid ourBoss fadeInLeft wow">
                     <div className="row mt-3 mb-5">
                         <div className="col-12 col-md-6 ">
                             <h3 className="text-left">Chief Executive Officer (CEO)

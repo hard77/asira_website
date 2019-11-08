@@ -14,7 +14,7 @@ class Problem extends React.Component{
         return(
             <div className="container-fluid">
             <div className="row">
-                <div className="col-5 col-md-5 mb-5">
+                <div className="col col-xs col-md-5 mb-5">
                     <h3 className="text-left"> Penyelesaian Masalah Keuangan dengan Teknologi Finansial</h3>
                 </div>
             </div>
