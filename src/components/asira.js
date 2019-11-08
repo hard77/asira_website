@@ -1,9 +1,13 @@
 import React from 'react'
 import './../support/css/asira.css'
 import GmbrAsira from './../support/img/asira.jpg'
+import WOW from 'wow.js'
 
 
 class Asira extends React.Component{
+    componentDidMount() {
+        new WOW().init();
+    }
     render(){
         return(
             <div className="container-fluid aboutAsira">
@@ -13,11 +17,11 @@ class Asira extends React.Component{
                     </div>
                 </div>    
                 <div className="row">
-                    <div className="col-xs col-12 col-md-6 mt-5">
+                    <div className="col-xs col-12 col-md-6 mt-5 fadeInLeft wow">
                        <center>
                     <img src={GmbrAsira} width="50%" alt="asira"></img> </center>
                     </div>
-                    <div className="col-xs col-12 col-md-6 mt-5">
+                    <div className="col-xs col-12 col-md-6 mt-5 fadeInRight wow">
                         <h3 style={{fontSize:"35px"}}className="text-left mb-5">Fitur Asira Mobile App:</h3>
                         <ul style={{fontSize:"25px"}}>
                             <li>Dikembangkan menggunakan Android Native</li>

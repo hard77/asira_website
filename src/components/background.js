@@ -1,9 +1,14 @@
 import React from 'react'
+import WOW from 'wow.js'
+
 import './../support/css/background.css'
 class BackgroundStory extends React.Component{
+    componentDidMount() {
+        new WOW().init();
+    }
     render(){
         return(
-            <div className="container-fluid backgroundstory text-left mt-5">
+            <div className="container-fluid backgroundstory text-left mt-5 wow fadeIn">
                     <h1>Latar Belakang</h1>
 
                 <div className="row mt-5">

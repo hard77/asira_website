@@ -4,7 +4,12 @@ import Income from './../support/img/icons/income.png'
 import Fintech from './../support/img/icons/fintech.png'
 import Accounting from './../support/img/icons/accounting.png'
 import Expensive from './../support/img/icons/expensive.png'
+import WOW from 'wow.js'
+
 class Problem extends React.Component{
+    componentDidMount() {
+        new WOW().init();
+    }
     render(){
         return(
             <div className="container-fluid">
@@ -14,7 +19,7 @@ class Problem extends React.Component{
                 </div>
             </div>
             <div className="row" style={{paddingLeft:"10%"}}>
-                <div className="col-xs col-12 col-md-2 ml-2">
+                <div className="col-xs col-12 col-md-2 ml-2  wow fadeInDown" >
                     <center>
                     <img src={Fintech} alt="Fintech" width="30%"></img>
                     </center>
@@ -22,7 +27,7 @@ class Problem extends React.Component{
                         Maraknya Teknologi Financial di Indonesia belakangan ini tidak bisa dianggap hal yang sepele.
                     </p>
                 </div>
-                <div className="col-xs col-12 col-md-2">
+                <div className="col-xs col-12 col-md-2 wow fadeInDown">
                     <center>
                     <img src={BankPNG} alt="iconBank" width="30%"></img>
                     </center>
@@ -30,7 +35,7 @@ class Problem extends React.Component{
                         Proses pengajuan pinjaman di bank tradisional saat ini masih rumit karena harus dilaksanakan di cabang.
                     </p>
                 </div>
-                <div className="col-xs col-12 col-md-2">
+                <div className="col-xs col-12 col-md-2 wow fadeInDown">
                     <center>
                     <img src={Income} alt="Income" width="30%"></img>
                     </center>
@@ -38,7 +43,7 @@ class Problem extends React.Component{
                         Kenyamanan penggunaan platform P2P akan menimbulkan ancaman bagi sistem perbankan tradisional terutama pada transaksi perbankan dan pinjaman
                     </p>
                 </div>
-                <div className="col-xs  col-12 col-md-2 ">
+                <div className="col-xs  col-12 col-md-2 wow fadeInDown">
                     <center>
                     <img src={Expensive} alt="Expensive" width="30%"></img>
                     </center>
@@ -46,7 +51,7 @@ class Problem extends React.Component{
                         Nasabah terpaksa mengajukan pinjamanan dengan biaya bunga dan administrasi sangat tinggi
                     </p>
                 </div>
-                <div className="col-xs  col-12 col-md-2">
+                <div className="col-xs  col-12 col-md-2 wow fadeInDown">
                     <center>
                     <img src={Accounting} alt="Accounting" width="30%"></img>
                     </center>

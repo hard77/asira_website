@@ -1,11 +1,16 @@
 import React from 'react'
+import WOW from 'wow.js'
+
 import CEO from './../support/img/founder.jpg'
 import CMD from './../support/img/ian2.jpg'
 import './../support/css/ourboss.css'
 class Boss extends React.Component{
+    componentDidMount() {
+        new WOW().init();
+    }
     render(){
         return(
-            <div className="container-fluid ourBoss">
+            <div className="container-fluid ourBoss fadeInUp wow">
                     <div className="row mt-3 mb-5">
                         <div className="col-12 col-md-6 ">
                             <h3 className="text-left">Chief Executive Officer (CEO)

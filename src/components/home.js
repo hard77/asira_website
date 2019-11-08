@@ -27,7 +27,7 @@ class Home extends React.Component{
                     </div> 
                     </div>
                 </div>
-                <div id="tentang" style={{position:"absolute",bottom:"2%"}}></div>
+                <div id="tentang" style={{height:"70px"}}></div>
                 <div> 
                         <BackgroundStory/>
                         <About/>
