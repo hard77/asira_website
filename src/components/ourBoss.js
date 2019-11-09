@@ -17,12 +17,12 @@ class Boss extends React.Component{
                             <p className="text-left" style={{color:"black"}}>Mikko Perez</p>
                             </h3>
                             <div className="row mt-5">
-                                <div className="col-6 col-md-6 col-xs-6">
+                                <div className="col-12 col-md-6 col-xs-12">
                                 <center>
                                 <img src={CEO} width="100%" alt="CEO"></img>
                                 </center>  
                                 </div>
-                                <div className="col-6 col-md-6 col-xs-6">
+                                <div className="col-12 col-md-6 col-xs-12">
                                 <ul>
                                     <li>20+ tahun pengalaman dalam membangun dan menumbuhkan usaha start up yang sukses</li>
                                     <li>Memulai karir sebagai pengatur komunitas di pedesaan Filipina </li>
@@ -37,12 +37,12 @@ class Boss extends React.Component{
                                 <p className="text-left" style={{color:"black"}}>Adrian Lorenzo</p>
                             </h3>
                             <div className="row mt-5">
-                                <div className="col-6 col-md-6 col-xs-6">
+                                <div className="col-12 col-md-6 col-xs-12">
                                 <center>
                                 <img src={CMD} width="100%" alt="CEO"></img>
                                 </center>  
                                 </div>
-                                <div className="col-6 col-md-6 col-xs-6">
+                                <div className="col-12 col-md-6 col-xs-12">
                                     <ul>
                                         <li>Penilaian Ekuitas (Saham dan Investasi)</li>
                                         <li>Merger dan Akuisisi (Investasi Perbankan) </li>

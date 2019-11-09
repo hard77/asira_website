@@ -46,10 +46,10 @@ class Awards extends React.Component{
 
                         <div className="row">
                             <div className="col-md-12 col-xs col-12">
-                                <img src={p1}  width="15%" className="ml-2" alt="NIKEI"/>
-                                <img src={p2}  width="15%" className="mr-4 ml-4" alt="techinasia"/>
+                                <img src={p1}   width="15%" className="ml-2" alt="NIKEI"/>
+                                <img src={p2} width="15%" className="mr-4 ml-4" alt="techinasia"/>
                                 <img src={p3}  width="15%" className="mr-4 ml-4" alt="TECHCRUNCH"/>
-                                <img src={p4}  width="15%" className="mr-4 ml-4" alt="Bloomberg"/>
+                                <img src={p4}   width="15%" className="mr-4 ml-4" alt="Bloomberg"/>
                                 <img src={p5}  width="15%" alt="Forbes"/>
                             </div>
                         </div>

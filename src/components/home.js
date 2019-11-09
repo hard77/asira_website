@@ -19,7 +19,7 @@ class Home extends React.Component{
                     <div className="contentMain wow fadeInDown slow data-wow-offset=50">
                     <div className="row">
                         <div className="col-xs col-12 col-md-12">
-                            <h1 style={{color:"whitesmoke",border:"none"}}>
+                            <h1>
                                 Layanan Keuangan Digital untuk Semua Bidang Usaha
                             </h1>
                             <p>

@@ -24,10 +24,10 @@
     text-align:center;
 }
 .contentMain h1,h3{
-    color: #ED433C;
-    border-left: 2px solid #ED433C;
+    color: whitesmoke;
     padding-left: 25px;
-  }
+    border: none;
+}
   
 
 .whoweare h1,h3{
@@ -37,3 +37,22 @@
 .whoweare p{
     color: black;
 }
+
+
+
+@media only screen and (max-width: 600px) {
+    .contentMain{
+        margin: 0 auto;
+        justify-items: center;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    }
+    .main .contentMain h1{
+        text-align:center;
+        font-size: 20px;
+
+    }
+    .main .contentMain p{
+        text-align:center;
+        font-size: 15px;
+    }
+  }
