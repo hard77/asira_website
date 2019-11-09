@@ -5,6 +5,7 @@ import Fintech from './../support/img/icons/fintech.png'
 import Accounting from './../support/img/icons/accounting.png'
 import Expensive from './../support/img/icons/expensive.png'
 import WOW from 'wow.js'
+import './../support/css/problem.css'
 
 class Problem extends React.Component{
     componentDidMount() {
@@ -13,7 +14,7 @@ class Problem extends React.Component{
     render(){
         return(
             <div className="container-fluid">
-            <div className="row">
+            <div className="row problem">
                 <div className="col col-xs col-md-5 mb-5">
                     <h3 className="text-left"> Penyelesaian Masalah Keuangan dengan Teknologi Finansial</h3>
                 </div>

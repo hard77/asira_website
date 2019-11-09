@@ -3,7 +3,6 @@ import './../support/css/asira.css'
 import GmbrAsira from './../support/img/asira.jpg'
 import WOW from 'wow.js'
 
-
 class Asira extends React.Component{
     componentDidMount() {
         new WOW().init();

@@ -22,7 +22,7 @@ class Awards extends React.Component{
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col-xs col col-md-6" >
+                    <div className="col-xs-12 col-12 col-md-6" >
                     <img src={Google} width="80%" alt="Google"/>
                     <p className="text-right">Ayannah terpilih sebagai salah satu startup dengan pertumbuhan teratas dari 
                     ribuan aplikasi (50 negara) untuk bergabung dengan Program Akselerator Launchpad
@@ -30,7 +30,7 @@ class Awards extends React.Component{
                     <p className="text-right"><b>Roy Glasberg, Global Lead, Google Developers Launchpad</b> </p>
                          
                     </div>
-                    <div className="col-xs col col-md-6 mt-5">
+                    <div className="col-xs-12 col-12 col-md-6 mt-5">
                     <h5 style={{ borderLeft:"2px solid #ED433C",color:"#ED433C",paddingLeft:"10px"
                     }}>PENCAPAIAN</h5>
                          <ul>
@@ -45,7 +45,8 @@ class Awards extends React.Component{
                     }}>DITAMPILKAN</h5>
 
                         <div className="row">
-                            <div className="col-md-12 col-xs col-12">
+                            <div className="col-md-12 col-xs-12 col-12 text-center">
+                                
                                 <img src={p1}   width="15%" className="ml-2" alt="NIKEI"/>
                                 <img src={p2} width="15%" className="mr-4 ml-4" alt="techinasia"/>
                                 <img src={p3}  width="15%" className="mr-4 ml-4" alt="TECHCRUNCH"/>
@@ -57,8 +58,8 @@ class Awards extends React.Component{
 
                     </div>
                 </div>
-                <div className="row">
-                <div className="col-12 col-md-12 col-xs text-left mt-5">
+                {/* <div className="row">
+                <div className="col-12 col-md-12 col-xs-12 text-left mt-5">
                     
                 <h1>100 Perusahaan Fintech yang Mempromosikan Inklusi Keuangan di Era Digital</h1>
 
@@ -66,9 +67,9 @@ class Awards extends React.Component{
                 </div>
                 <div className="row container-fluid mt-5 slideInUp wow">
                     <div className="col-12 col-md-12 text-center col-xs mt-5">
-                    <img src={AyannahPromote} width="75%" alt="Promote"/>
+                    <img src={AyannahPromote} className="img-responsive" alt="Promote"/>
                     </div>
-                </div>
+                </div> */}
 
             </div>
         )

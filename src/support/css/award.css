@@ -1,5 +1,4 @@
 .awards h1{
-    font-size: 50px;
     color: #ED433C;
     border-left: 2px solid #ED433C;
     padding-left: 25px;
@@ -10,3 +9,11 @@ list-style-image: url('./../img/icons/logoAyannah.png') ;
 padding-left: 12px;
 padding-top: 10px;
 line-height: 2.0;}
+
+@media only screen and (max-width: 600px) {
+    .awards h1{
+        color: #ED433C;
+        border-left: 2px solid #ED433C;
+        padding-left: 25px;
+    }
+  }
