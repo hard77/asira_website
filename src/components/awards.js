@@ -6,7 +6,6 @@ import p2 from './../support/img/2.jpeg'
 import p3 from './../support/img/3.jpeg'
 import p4 from './../support/img/4.jpeg'
 import p5 from './../support/img/5.jpeg'
-import AyannahPromote from './../support/img/AyannahPromote.png'
 import WOW from 'wow.js'
 
 class Awards extends React.Component{
@@ -58,19 +57,6 @@ class Awards extends React.Component{
 
                     </div>
                 </div>
-                {/* <div className="row">
-                <div className="col-12 col-md-12 col-xs-12 text-left mt-5">
-                    
-                <h1>100 Perusahaan Fintech yang Mempromosikan Inklusi Keuangan di Era Digital</h1>
-
-                    </div>
-                </div>
-                <div className="row container-fluid mt-5 slideInUp wow">
-                    <div className="col-12 col-md-12 text-center col-xs mt-5">
-                    <img src={AyannahPromote} className="img-responsive" alt="Promote"/>
-                    </div>
-                </div> */}
-
             </div>
         )
     }
