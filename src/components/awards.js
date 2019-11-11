@@ -23,10 +23,10 @@ class Awards extends React.Component{
                 <div className="row">
                     <div className="col-xs-12 col-12 col-md-6" >
                     <img src={Google} width="80%" alt="Google"/>
-                    <p className="text-right">Ayannah terpilih sebagai salah satu startup dengan pertumbuhan teratas dari 
+                    <p className="text-left">Ayannah terpilih sebagai salah satu startup dengan pertumbuhan teratas dari 
                     ribuan aplikasi (50 negara) untuk bergabung dengan Program Akselerator Launchpad
                     Google</p>
-                    <p className="text-right"><b>Roy Glasberg, Global Lead, Google Developers Launchpad</b> </p>
+                    <p className="text-left"><b>Roy Glasberg, Global Lead, Google Developers Launchpad</b> </p>
                          
                     </div>
                     <div className="col-xs-12 col-12 col-md-6 mt-5">
