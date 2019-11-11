@@ -22,7 +22,7 @@ class Asira extends React.Component{
                     </div>
                     <div className="col-xs col-12 col-md-6 mt-5 fadeInRight wow">
                         <h3 style={{fontSize:"35px"}}className="text-left mb-5">Fitur Asira Mobile App:</h3>
-                        <ul style={{fontSize:"25px"}}>
+                        <ul style={{fontSize:"20px"}}>
                             <li>Dikembangkan menggunakan Android Native</li>
                             <li><b>ASIRA</b> adalah sebuah Platform yang disediakan <b>Ayannah</b> bagi Mitra Bank agar dapat mendigitalisasi produk pinjaman yang dimiliki.</li>
                             <li>Nasabah dapat registrasi melalui aplikasi sesuai dengan Bank Mitra <b>ASIRA</b> yang di inginkan</li>
