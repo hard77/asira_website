@@ -22,7 +22,7 @@ class Awards extends React.Component{
                 </div>
                 <div className="row">
                     <div className="col-xs-12 col-12 col-md-6" >
-                    <img src={Google} width="80%" alt="Google"/>
+                    <img src={Google} className="img-responsive" width="100%" alt="Google"/>
                     <p className="text-left">Ayannah terpilih sebagai salah satu startup dengan pertumbuhan teratas dari 
                     ribuan aplikasi (50 negara) untuk bergabung dengan Program Akselerator Launchpad
                     Google</p>
