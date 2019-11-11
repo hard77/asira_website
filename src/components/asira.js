@@ -1,6 +1,6 @@
 import React from 'react'
 import './../support/css/asira.css'
-import GmbrAsira from './../support/img/asira.jpg'
+import GmbrAsira from './../support/img/asira.jpeg'
 import WOW from 'wow.js'
 
 class Asira extends React.Component{
