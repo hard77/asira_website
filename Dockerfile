@@ -16,6 +16,6 @@ RUN yarn
 
 # start app
 CMD npm install\
-&& npm start
+&& npm run build
 
 EXPOSE 3000
