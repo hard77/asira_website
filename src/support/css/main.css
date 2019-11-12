@@ -9,15 +9,11 @@
     background-attachment: fixed;
     background-color: grey;
     font-family: 'Staatliches', cursive;
+    @media (max-width: @iphone-screen) {
+        background-attachment: scroll;
+    }
 }
 
-.main:after{
-    background: url('./../img/bg.jpg') center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
 
 .main-nav{
     font-family: 'Abel', sans-serif;
