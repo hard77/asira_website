@@ -2,9 +2,13 @@
     background-image: url('./../img/bg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
     background-position: center center;
     background-attachment: fixed;
     height: 50vmax;
+    background-color: grey;
     font-family: 'Staatliches', cursive;
 }
 
