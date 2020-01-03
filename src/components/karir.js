@@ -30,7 +30,7 @@ class Karir extends React.Component
                 {/* ========================= QA =================================== */}
 
                     <Modal className="modal-lg" isOpen={this.state.modal} scrollable={true} >
-                    <ModalHeader >Ayannah Solusi Nusantara - Quality Assurance</ModalHeader>
+                    <ModalHeader >Ayannah Solusi Nusantara - Software QA Manual Tester </ModalHeader>
                     <ModalBody>
                         <p>Job Duties & Responsibilities</p>
                         
@@ -202,7 +202,6 @@ class Karir extends React.Component
 
 
 
-                <div id="home" style={{top:"0",position:"absolute"}}></div>
 
                 <div className="row" style={{marginTop:"10%"}}>
                     <h3>Our Available Positions</h3>
@@ -220,7 +219,7 @@ class Karir extends React.Component
                     <tbody>
                         <tr>
                         <th scope="row">1</th>
-                        <td>Software Engineer, Quality Assurance </td>
+                        <td>Software QA Manual Tester </td>
                         <td>Jakarta Selatan</td>
                         <td>
                             <button type="button" className="ml-5 btn btn-secondary" onClick={this.showModal}  style={{width:"150px"}}>DETAIL</button>
@@ -230,7 +229,7 @@ class Karir extends React.Component
                    
                         <tr>
                         <th scope="row">2</th>
-                        <td>Marketing Associate & Sales Associate </td>
+                        <td>Marketing Associate </td>
                         <td>Jakarta Selatan</td>
                         <td>
                             <button type="button" className="ml-5 btn btn-secondary" onClick={this.showModalMarketing}  style={{width:"150px"}}>DETAIL</button>
