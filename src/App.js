@@ -5,6 +5,7 @@ import Header from './components/header'
 import Footer from './components/footer'
 import Home from './components/home'
 import ScrollToTop from './components/scrollToTop'
+import Karir from './components/karir'
 import WOW from 'wow.js'
 import TOP from './support/img/icons/top.svg'
 class App extends React.Component {
@@ -18,6 +19,8 @@ class App extends React.Component {
           <Header/>
             <Switch>
               <Route path='/' component={Home} exact></Route>
+              <Route path='/karir' component={Karir} exact></Route>
+
             </Switch>
               <div id="App" className="text-right pr-5 ">
                   <a href="#home">

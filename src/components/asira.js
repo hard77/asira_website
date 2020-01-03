@@ -28,7 +28,7 @@ class Asira extends React.Component{
                             <li>Nasabah dapat registrasi melalui aplikasi sesuai dengan Bank Mitra <b>ASIRA</b> yang di inginkan</li>
                             <li>Nasabah dapat mengajukan pinjaman melalui aplikasi sesuai dengan layanan dan produk yang dimiliki Bank Mitra <b>ASIRA</b></li>
                             <li>Nasabah akan mendapatkan notifikasi terkait proses pengajuan pinjaman mereka.</li>
-                            <li>Nasabah dapat update data diri mereka yang mana akan memudahkan bank untuk melihat credit scoring pinjaman.</li>
+                            <li>Nasabah dapat update data diri mereka yang mana akan memudahkan bank guna data administrasi bank mitra.</li>
                             <li>Bank dengan mudah dapat memasukan program promosi milik bank dalam <b>ASIRA</b> Mobile App.</li>
                         </ul>
                     </div>
