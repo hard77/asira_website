@@ -23,11 +23,11 @@ class Footer extends React.Component {
                   <a href="http://www.facebook.com" rel="noopener noreferrer" target="_blank">
                   <img src={facebook} width="5%" alt="facebook"></img>
                   </a>   
-                  <a href="http://www.twitter.com" rel="noopener noreferrer" target="_blank"> 
+                  {/* <a href="http://www.twitter.com" rel="noopener noreferrer" target="_blank"> 
                       <img src={twitter} className="ml-3 mr-3" width="5%" alt="twitter"></img>
-                  </a>
+                  </a> */}
                 <a href="http://www.linked.com" rel="noopener noreferrer" target="_blank">
-                    <img src={linkedin} width="5%" alt="twitter"></img>
+                    <img src={linkedin} className="ml-3" width="5%" alt="twitter"></img>
                 </a>
               </div>
               <div className="col-md-6 col-xs-12 col-12 text-right">
