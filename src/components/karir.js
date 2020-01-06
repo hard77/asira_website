@@ -212,7 +212,7 @@ class Karir extends React.Component
                         <tr>
                         <th scope="col">#</th>
                         <th scope="col">Job Title </th>
-                        <th scope="col">Lokasi</th>
+                        <th scope="col">Location</th>
                         <th scope="col"></th>
                         </tr>
                     </thead>
