@@ -2,7 +2,7 @@ import React from 'react'
 import './../support/css/footer.css'
 
 import facebook from './../support/img/icons/facebook.png'
-import twitter from './../support/img/icons/twitter2.png'
+// import twitter from './../support/img/icons/twitter2.png'
 import linkedin from './../support/img/icons/linkedin.png'
 
 
