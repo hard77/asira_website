@@ -32,13 +32,13 @@ class Footer extends React.Component {
               </div>
               <div className="col-md-6 col-xs-12 col-12 text-right">
                       
-              <p className=" text-right"> Noble House, Lantai 29<br/>
+              <p className=" text-right"> Noble House, Lantai 30<br/>
                +6221 50645098<br/>
                Jalan Dr.Ide Anak Agung Gde Agung Kav. E 4.2, RT.5/RW.2, Kuningan<br/>
               Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12950 </p>
               </div>
           </div>
-          <div className="footer-copyright text-center py-3">© 2019 - Ayannah Solusi Nusantara
+          <div className="footer-copyright text-center py-3">© 2020 - Ayannah Solusi Nusantara
           </div>
         </div>
         
