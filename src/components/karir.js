@@ -70,7 +70,7 @@ class Karir extends React.Component
 
                     {/* ========================= Marketing Associate =================================== */}
                     <Modal className="modal-lg" isOpen={this.state.modalMarket} scrollable={true} >
-                    <ModalHeader >Ayannah Solusi Nusantara - Marketing Associate</ModalHeader>
+                    <ModalHeader >Ayannah Solusi Nusantara - Marketing Associate ONLINE</ModalHeader>
                     <ModalBody>
                     <p>Job Duties & Responsibilities</p>
 
@@ -99,7 +99,8 @@ class Karir extends React.Component
                         <li>Ability to learn quickly in a fast-paced and agile environment</li>
                         <li>Self-starter and able to proactively solve problems and work without supervision	</li>
                         <li>Must be a team player & fast learner</li>
-                        <li>Proficiency with SEO/SEM campaigns</li>
+                        <li>Proficiency with SEO/SEM and ASO campaigns</li>
+                        <li>Deals with online Ads Facebook or Instagram Ads</li>
                         <li>Excellent communication and presentation skills</li>
                         <li>Having experience working in the banking industry is a plus</li>
 
@@ -225,15 +226,23 @@ class Karir extends React.Component
                    
                         <tr>
                         <th scope="row">2</th>
-                        <td>Marketing Associate </td>
+                        <td>Online Marketing </td>
                         <td>Jakarta Selatan</td>
                         <td>
                             <button type="button" className="ml-5 btn btn-secondary" onClick={this.showModalMarketing}  style={{width:"150px"}}>DETAIL</button>
                         </td>
                         </tr>
-
                         <tr>
                         <th scope="row">3</th>
+                        <td> Performance Marketing </td>
+                        <td>Jakarta Selatan</td>
+                        <td>
+                            {/* <button type="button" className="ml-5 btn btn-secondary" onClick={this.showModalMarketing}  style={{width:"150px"}}>DETAIL</button> */}
+                        </td>
+                        </tr>
+
+                        <tr>
+                        <th scope="row">4</th>
                         <td>Business Development Associate </td>
                         <td>Jakarta Selatan</td>
                         <td>
@@ -242,7 +251,7 @@ class Karir extends React.Component
                         </tr>
 
                         <tr>
-                        <th scope="row">4</th>
+                        <th scope="row">5</th>
                         <td>Product Associate </td>
                         <td>Jakarta Selatan</td>
                         <td>
