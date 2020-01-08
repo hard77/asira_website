@@ -2,14 +2,14 @@
 FROM node
 
 # set working directory
-RUN mkdir /usr/src/app
+RUN mkdir /opt/app-root
 #copy all files from current directory to docker
-COPY . /usr/src/app
+COPY . /opt/app-root
 
-WORKDIR /usr/src/app
+WORKDIR /opt/app-root
 
 # add `/usr/src/app/node_modules/.bin` to $PATH
-ENV PATH /usr/src/app/node_modules/.bin:$PATH
+ENV PATH /opt/app-root/node_modules/.bin:$PATH
 
 # install and cache app dependencies
 RUN yarn
@@ -17,5 +17,10 @@ RUN yarn
 # start app
 CMD npm install\
 && npm run build
+
+### STAGE 2: Production Environment ###
+FROM node
+
+COPY --from=build /opt/app-root/build/ /opt/app-root/build/
 
 EXPOSE 3000
